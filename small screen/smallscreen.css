@@ -1,0 +1,371 @@
+header{
+    background-color:rgb(1, 2, 23);
+    
+}
+
+.logo-img{
+    display: flex;
+    flex: 1;
+   width: 100px;
+   height: 20px;
+    margin-top: 30px;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 20px; 
+}
+
+.nav-items{
+    display: flex;
+    flex: 1;
+    margin-left: 80vh;
+    justify-content: space-around;
+   height: 20vh;  
+   list-style: none;         
+}
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn-nav{
+    background-color: transparent;
+    color: #fff;
+    border: solid #fff;
+    padding: 0.4em 2em;
+    border-width: 1px
+
+}
+
+.container{
+    margin: 40px;
+    display:flex;
+    flex: 2;
+    justify-content: space-evenly;
+    color:#fff;
+    font-size: 30px;
+    
+}
+
+.product{
+    width: 500px;
+    height: 350px ;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+
+.boost{
+    position: relative;
+    bottom: 60px;
+    margin-top:none;
+   margin-left: 30px ;
+   margin-right:20px ;
+   
+}
+.boost h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boost p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email-us{
+    background-color: #fff;
+    width:  210px;
+    padding: 5px 0em;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;  
+}
+.mail{
+    position: relative;
+    top: 10px;
+    height: 7px;
+    width: 10px;
+}
+
+.email{
+    border: none;
+    font-size: 10px;
+    width: 110px;
+}
+.btn-boost{
+    font-size: 10px;
+    border: solid #fff;
+    background-color: rgb(120, 73, 73);
+    color: #fff;
+    padding: 5px 15px;
+}
+
+ .connect h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.connect span{
+    font-size: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.ttable{
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.thead{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tdata td{
+padding: 0px 20px 30px;
+font-family:Arial, Helvetica, sans-serif ;  
+}
+
+.exp-img img{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.simp h1{
+    font-size: 50px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.innovate{
+    display: flex;
+    margin: 100px;
+}
+.innov{
+    margin-right: 100px;
+}
+.innov h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.innov p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.btn-two{
+   background-color:rgb(120, 73, 73) ; 
+   padding: 0.5em 1.5em;
+   font-size: 18px;
+   color: #fff;
+   border: none;
+   margin-top: 50px;
+}
+
+.innov-img{
+    width: 370px;
+   height: 370px;
+}
+
+.three{
+    background-color:rgb(1, 2, 23);
+    margin: auto; 
+    
+    
+}
+ .shake-dig{
+    display: flex;
+    margin: 150px;
+    padding: 20px 10px 20px 0px;
+ }
+.shake-img{
+  width: 350px;
+  height: 380px;
+}
+.digital{
+margin-left: 100px;
+}
+.digital h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.digital p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.btn-three{
+    color: #fff;
+    margin-top: 50px;
+    padding: 0.6em 1.7em;
+    background-color:rgb(79, 22, 22) ; 
+    border: none;
+    font-size: 18px;
+}
+.four{
+    display: flex;
+    margin: 100px;
+}
+.first{
+    margin-right: 100px;
+}
+.first h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.first p{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.btn-four{
+   background-color:rgb(120, 73, 73);
+   padding: 0.5em 1.5em;
+   font-size: 18px;
+   color: #fff;
+   border: none;
+   margin-top: 30px;
+}
+.impress-img{
+    width: 370px;
+   height: 370px;
+}
+
+.five{
+    margin-top: -3em;
+}
+.meet-lor{
+    display: flex;
+    margin: 130px;
+    margin-top: -3em;
+    
+}
+.meet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+   margin-top: -1em;
+    padding-right: 200px;
+    width: 400px;
+    
+    
+}
+.lorem{
+  margin-right: -1em;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7em; 
+}
+.meet-them{
+    display: flex;
+    margin-left: 130px;
+    align-content: center;      
+}
+
+.team-one img{
+    width: 220px;
+    height: 350px;
+}
+.five h1{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 790;
+}
+.five p{
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 550;   
+}
+.team-one p{
+    width: 200px;
+}
+
+.team-two img{
+    width: 220px;
+    height: 350px;  
+} 
+.team-two{
+    padding-left: 160px;
+}
+.team-two p{
+    width: 200px;
+}
+
+.team-four img{ 
+    width: 220px;
+    height: 350px;   
+}
+.team-four{
+    padding-left: 160px;
+    
+}
+
+.team-four p{
+    width: 200px;
+}
+ .btn-five{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color:rgb(115, 46, 46) ;  
+    border: none;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    color: #fff;
+}
+footer{
+    background-color:rgb(1, 2, 23);
+    margin-top: 50px;
+    
+}
+
+.logo-foot{
+    display: flex;
+    flex: 1;
+   width: 180px;
+   height: 35px;
+   padding-top: 50px;
+   padding-left: 100px;
+}
+hr{
+border: solid rgb(80, 79, 79);
+border-width: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ 
+.icons{
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    margin-right:100px ;
+    margin-top: -3em;
+    list-style: none;
+    
+} 
+.icon{
+    padding-left: 10px; 
+} 
+            
+
+.icon img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.foot-bar{
+    padding-bottom: 20px;
+}
+
+.foot-lorem{
+    color:#fff ;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
